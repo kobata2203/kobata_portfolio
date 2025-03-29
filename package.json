@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/kobata2203/kobata_portfolio#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "gem": "^2.4.3"
   }
 }
