@@ -67,6 +67,14 @@
     "post-install-cmd": {
         "php artisan clear-compiled": true,
         "chmod -R 755 public/": true
+    },
+    
+    "dependencies": {
+        "your-module": "^1.0.0"
+    },
+    "devDependencies": {
+        
     }
-
+      
+      
 }
