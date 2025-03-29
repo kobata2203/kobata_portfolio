@@ -62,5 +62,10 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "post-install-cmd": {
+        "php artisan clear-compiled": true,
+        "chmod -R 755 public/": true
+    }
+
 }
