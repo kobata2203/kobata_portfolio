@@ -184,11 +184,11 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
-    const express = require('express');
-    const app = express();
-    const PORT = process.env.PORT || 3000; // Herokuのポートを使用
-    app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-    });
+    //const express = require('express');
+    //const app = express();
+    //const PORT = process.env.PORT || 3000; // Herokuのポートを使用
+    //app.listen(PORT, () => {
+    //console.log(`Server is running on port ${PORT}`);
+    //});
 
 ];
